@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Korean-Font';
+    src: url("/fonts/KoreanLooks-jErAM.ttf");
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, ;
+    background: #1b1b1b;
+    margin: 0;
+    display: -ms-grid;
+    display: grid;
+    place-content: center;
+    height: 100vh;
+}
+
+.container {
+    position: relative;
+    place-content: center;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Korean-Font', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 1.8rem;
+}
+
+button {
+    background: #343434;
+    margin-top: 2em;
+    border: none;
+    padding: 1em;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    outline: 0;
+    cursor: pointer;
+
+    &:hover {
+        background: #424242;
+    }
+
+    &:active {
+        background: rgb(233, 51, 51);
+    }
+}
