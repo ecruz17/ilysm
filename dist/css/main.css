@@ -1,8 +1,3 @@
-@font-face {
-  font-family: 'Korean-Font';
-  src: url("/fonts/KoreanLooks-jErAM.ttf");
-}
-
 body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   background: #1b1b1b;

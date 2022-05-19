@@ -22,7 +22,7 @@ const phrases = [
 "ricooo",
 "duele panchita",
 "aveeeer",
-"Nam Jong",
+"Nam Joon",
 "A manejar",
 "RECIO",
 "A la FEC",
@@ -112,6 +112,19 @@ const phrases = [
 "a las 7 o qué?",
 "clases de canto",
 "club de dibujo 😪",
+"ayyy pofavo 🥺",
+"(inserte sticker de patricio)",
+"con la awue",
+"t amo bebé ❤",
+"👀👀",
+"ª",
+"manda fotooo",
+"ora pues",
+"te amo mucho 😋❤",
+"me va a hacer madrugar oiga 😪",
+"Logística y Gestión Aduanal",
+"ahhhhh",
+"wey noOoOo 😫"
 ];
 
 function boom() {
@@ -119,8 +132,9 @@ function boom() {
 }
 
 function print() {
-    let rand = Math.floor(Math.random() * 107);
+    let rand = Math.floor(Math.random() * 122);
     let phrase = phrases[rand]; 
+    console.log(phrases.length);
     txt.innerHTML = phrase;
 }
 
