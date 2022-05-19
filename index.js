@@ -119,7 +119,7 @@ function boom() {
 }
 
 function print() {
-    let rand = Math.floor(Math.random() * 87);
+    let rand = Math.floor(Math.random() * 107);
     let phrase = phrases[rand]; 
     txt.innerHTML = phrase;
 }
