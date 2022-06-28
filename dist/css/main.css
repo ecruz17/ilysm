@@ -1,11 +1,12 @@
 body {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   background: #1b1b1b;
   margin: 0;
   display: -ms-grid;
   display: grid;
   place-content: center;
   height: 100vh;
+  width: 100vw;
 }
 
 .container {
@@ -15,7 +16,7 @@ body {
 }
 
 h1 {
-  font-family: 'Korean-Font', sans-serif;
+  font-family: 'Neucha', cursive;
   color: white;
   font-size: 1.8rem;
 }
@@ -45,11 +46,7 @@ button:active {
   background: #e93333;
 }
 
-.svg {
-  width: 200px;
-  position: absolute;
-  top: -40px;
-  left: -30px;
-  pointer-events: none;
+img {
+  width: 10rem;
 }
 /*# sourceMappingURL=main.css.map */
